@@ -24,9 +24,6 @@
     <ClCompile Include="3D_Library.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Test_App.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="3D_core\CLine.c">
       <Filter>3D_Core</Filter>
     </ClCompile>
@@ -56,9 +53,6 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="StdAfx.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Test_app.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="3D_core\3D.h">

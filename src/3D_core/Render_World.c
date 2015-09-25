@@ -41,7 +41,7 @@ void Render_Ground(CVertex point[])
 		DrawLine( &hpen, &a[i], &a[i+1] );
  	}
     
-	//! clean up.
+	// clean up.
     SelectObject(hdc, hpenOld);
     DeleteObject(hpen);
     SelectObject(hdc, hbrushOld);

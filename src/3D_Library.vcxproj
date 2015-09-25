@@ -133,7 +133,6 @@
     <ClCompile Include="3D_core\Render_World.c" />
     <ClCompile Include="3D_Library.c" />
     <ClCompile Include="Geographic\Ground.c" />
-    <ClCompile Include="Test_App.c" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="3D_Library.rc" />
@@ -149,7 +148,6 @@
     <ClInclude Include="Geographic\Ground.h" />
     <ClInclude Include="resource.h" />
     <ClInclude Include="StdAfx.h" />
-    <ClInclude Include="Test_app.h" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="3D_Library.ico" />
