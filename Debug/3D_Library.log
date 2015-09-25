@@ -1,0 +1,36 @@
+﻿빌드 시작: 2015-09-25 오후 12:57:41
+     1>2 노드의 "D:\jskim\My_Program\Working\3D_Library\3D_Library.vcxproj" 프로젝트(Build 대상)입니다.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _AFXDLL /D _VC80_UPGRADE=0x0600 /Gm- /EHsc /MDd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo".\Debug\\" /Fd".\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:prompt 3D_core\CLine.c 3D_core\CSet.c 3D_core\CVertex.c 3D_core\Render_World.c 3D_Library.c Geographic\Ground.c Test_App.c
+         CLine.c
+     1>d:\jskim\my_program\working\3d_library\3d_core\cline.c(26): warning C4244: '함수': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>d:\jskim\my_program\working\3d_library\3d_core\cline.c(27): warning C4244: '함수': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+         CSet.c
+         CVertex.c
+         Render_World.c
+         3D_Library.c
+     1>d:\jskim\my_program\working\3d_library\3d_library.c(208): warning C4013: 'Set_ryrot'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+     1>d:\jskim\my_program\working\3d_library\3d_library.c(209): warning C4013: 'Set_rxrot'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+         Ground.c
+         Test_App.c
+         코드를 생성하고 있습니다...
+     1>d:\jskim\my_program\working\3d_library\3d_library.c(181): warning C4700: 초기화되지 않은 'hdc' 지역 변수를 사용했습니다.
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _DEBUG /D _VC80_UPGRADE=0x0600 /l"0x0412" /nologo /fo".\Debug\3D_Library.res" 3D_Library.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug\3D_Library.exe" /INCREMENTAL /NOLOGO odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:".\Debug\3D_Library.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\3D_Library.lib" /MACHINE:X86 /SAFESEH .\Debug\3D_Library.res
+         .\Debug\CLine.obj
+         .\Debug\CSet.obj
+         .\Debug\CVertex.obj
+         .\Debug\Render_World.obj
+         .\Debug\3D_Library.obj
+         .\Debug\Ground.obj
+         .\Debug\Test_App.obj
+     1>LINK : warning LNK4076: '.\Debug\3D_Library.ilk' 증분 상태 파일이 잘못되었습니다(삭제됨). 비증분 링크합니다.
+     1>CLine.obj : warning LNK4075: '/EDITANDCONTINUE'이(가) '/OPT:LBR' 사양으로 인해 무시됩니다.
+         3D_Library.vcxproj -> D:\jskim\My_Program\Working\3D_Library\.\Debug\3D_Library.exe
+     1>"D:\jskim\My_Program\Working\3D_Library\3D_Library.vcxproj" 프로젝트를 빌드했습니다(Build 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:04.39

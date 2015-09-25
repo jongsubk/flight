@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{87179808-3ff9-4275-ba2c-a86538e19f2f}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{97ecd889-a0fd-4941-a6d2-2abad13b91e3}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{5e6c38b7-f3a3-486b-b64a-df7b0ef0e3b9}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="3D_Core">
+      <UniqueIdentifier>{bd246a9d-e4ab-4ccc-adc7-21c0f0aa60f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Geographic">
+      <UniqueIdentifier>{bf02955e-9c86-477c-8b55-ce766615f671}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="3D_Library.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Test_App.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="3D_core\CLine.c">
+      <Filter>3D_Core</Filter>
+    </ClCompile>
+    <ClCompile Include="3D_core\CSet.c">
+      <Filter>3D_Core</Filter>
+    </ClCompile>
+    <ClCompile Include="3D_core\CVertex.c">
+      <Filter>3D_Core</Filter>
+    </ClCompile>
+    <ClCompile Include="3D_core\Render_World.c">
+      <Filter>3D_Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Geographic\Ground.c">
+      <Filter>Geographic</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="3D_Library.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="3D_Library.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Test_app.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="3D_core\3D.h">
+      <Filter>3D_Core</Filter>
+    </ClInclude>
+    <ClInclude Include="3D_core\CLine.h">
+      <Filter>3D_Core</Filter>
+    </ClInclude>
+    <ClInclude Include="3D_core\CSet.h">
+      <Filter>3D_Core</Filter>
+    </ClInclude>
+    <ClInclude Include="3D_core\CVertex.h">
+      <Filter>3D_Core</Filter>
+    </ClInclude>
+    <ClInclude Include="3D_core\Render_World.h">
+      <Filter>3D_Core</Filter>
+    </ClInclude>
+    <ClInclude Include="3D_core\TypeDefine.h">
+      <Filter>3D_Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Geographic\Ground.h">
+      <Filter>Geographic</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="3D_Library.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="small.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="WorkHistory_Jongsub.txt" />
+  </ItemGroup>
+</Project>

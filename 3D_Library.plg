@@ -1,0 +1,65 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: 3D_Library - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x412 /fo"Debug/3D_Library.res" /d "_DEBUG" "D:\jskim\My_Program\Working\3D_Library\3D_Library.rc"" 
+Creating temporary file "C:\DOCUME~1\royy1\LOCALS~1\Temp\RSPB.tmp" with contents
+[
+/nologo /MDd /W3 /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /Fo"Debug/" /Fd"Debug/" /FD /c 
+"D:\jskim\My_Program\Working\3D_Library\3D_Library.c"
+"D:\jskim\My_Program\Working\3D_Library\Test_App.c"
+"D:\jskim\My_Program\Working\3D_Library\3D_core\CLine.c"
+"D:\jskim\My_Program\Working\3D_Library\3D_core\CSet.c"
+"D:\jskim\My_Program\Working\3D_Library\3D_core\CVertex.c"
+"D:\jskim\My_Program\Working\3D_Library\3D_core\Render_World.c"
+"D:\jskim\My_Program\Working\3D_Library\Geographic\Ground.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\royy1\LOCALS~1\Temp\RSPB.tmp" 
+Creating temporary file "C:\DOCUME~1\royy1\LOCALS~1\Temp\RSPC.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/3D_Library.pdb" /debug /machine:I386 /out:"Debug/3D_Library.exe" /pdbtype:sept 
+.\Debug\3D_Library.obj
+.\Debug\Test_App.obj
+.\Debug\CLine.obj
+.\Debug\CSet.obj
+.\Debug\CVertex.obj
+.\Debug\Render_World.obj
+.\Debug\Ground.obj
+.\Debug\3D_Library.res
+]
+Creating command line "link.exe @C:\DOCUME~1\royy1\LOCALS~1\Temp\RSPC.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+3D_Library.c
+d:\jskim\my_program\working\3d_library\3d_library.c(208) : warning C4013: 'Set_ryrot' undefined; assuming extern returning int
+d:\jskim\my_program\working\3d_library\3d_library.c(209) : warning C4013: 'Set_rxrot' undefined; assuming extern returning int
+Test_App.c
+CLine.c
+d:\jskim\my_program\working\3d_library\3d_core\cline.c(26) : warning C4244: 'function' : conversion from 'double ' to 'int ', possible loss of data
+d:\jskim\my_program\working\3d_library\3d_core\cline.c(26) : warning C4244: 'function' : conversion from 'double ' to 'int ', possible loss of data
+d:\jskim\my_program\working\3d_library\3d_core\cline.c(27) : warning C4244: 'function' : conversion from 'double ' to 'int ', possible loss of data
+d:\jskim\my_program\working\3d_library\3d_core\cline.c(27) : warning C4244: 'function' : conversion from 'double ' to 'int ', possible loss of data
+CSet.c
+CVertex.c
+Render_World.c
+Ground.c
+Generating Code...
+d:\jskim\my_program\working\3d_library\3d_core\cline.c(26) : warning C4761: integral size mismatch in argument; conversion supplied
+d:\jskim\my_program\working\3d_library\3d_core\cline.c(26) : warning C4761: integral size mismatch in argument; conversion supplied
+d:\jskim\my_program\working\3d_library\3d_core\cline.c(27) : warning C4761: integral size mismatch in argument; conversion supplied
+d:\jskim\my_program\working\3d_library\3d_core\cline.c(27) : warning C4761: integral size mismatch in argument; conversion supplied
+d:\jskim\my_program\working\3d_library\3d_library.c(181) : warning C4700: local variable 'hdc' used without having been initialized
+Linking...
+
+
+
+<h3>Results</h3>
+3D_Library.exe - 0 error(s), 11 warning(s)
+</pre>
+</body>
+</html>
