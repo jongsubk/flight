@@ -13,7 +13,7 @@ CVertex GeoVertex[ ] =
 
 
 
-CVertex GeoGround[6*8] =
+CVertex GeoGround[] =
 {
 	{ 0,  0, 0}, {100,  0, 0},
 	{100,  0, 0}, {200,  0, 0},

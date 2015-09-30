@@ -21,8 +21,6 @@
 */
 struct CANVAS_s
 {
-//	3DGC		gc;		//Graphic Context
-
     CVertex		p1;
     CVertex		p2;
 

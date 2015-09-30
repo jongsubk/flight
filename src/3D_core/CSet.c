@@ -2,8 +2,6 @@
 #include "Math.h"
 
 
-
-
 double rxx=1, rxy=0, rxz=0;	// View에서 사용하는 matrix
 double ryx=0, ryy=1, ryz=0;
 double rzx=0, rzy=0, rzz=1;
